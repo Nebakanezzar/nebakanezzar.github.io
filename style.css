@@ -77,7 +77,7 @@ body {
 
 .headerName {
 	color:#48c2c5;
-	font-family: "Arial";
+	font-family: Arial;
 	font-size: 48px;
 }
 
@@ -89,18 +89,18 @@ body {
 }
 #headerPicCell {
 	position:absolute;
-	left:87px;
-	top:34px;
+	left:83px;
+	top:14px;
 	width:817px;
-	height:92px;
+	height:114px;
 	z-index:3;
 	font-family: Arial;
 	color: #000;
 }
 #menuCell {
 	position:absolute;
-	left:0px;
-	top:73px;
+	left:1px;
+	top:92px;
 	width:249px;
 	height:35px;
 	z-index:3;
