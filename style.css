@@ -165,3 +165,31 @@ a:active {
 	font-size: 36px;
 	font-family: Arial;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container {
+  display:flex;
+  flex-direction:row;
+}
+
+#left-column {
+  width: 30%;
+  background-color: blue;
+}
+
+#right-column {
+  background-color: red;
+  width: 70 %;
+}
