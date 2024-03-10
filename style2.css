@@ -1,0 +1,195 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	color:cacaca;
+	font-family: Arial;
+}
+body {
+	
+	
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#FFF;
+}
+#apDiv1 {
+	
+	
+	width:1000px;
+	padding-top: 0px;
+}
+#darkBG {
+	position:absolute;
+	left:0px;
+	top:107px;
+	width:100%;
+	height:807px;
+	z-index:1;
+	background-color: #FFF;
+}
+#centerDIV {
+	
+	left:467px;
+	top:0px;
+	width:1000px;
+	height:100%;
+	z-index:2;
+	margin:0 auto;
+}
+#centerNESTdiv {
+	position:absolute;
+	top:4px;
+	width:100%;
+	height:100%;
+	z-index:2;
+	margin:0 auto;
+	background: #FFF;
+}
+#headerName {
+	position:absolute;
+	left:0px;
+	top:14px;
+	width:315px;
+	height:52px;
+	z-index:3;
+}
+
+#headerNamePLPS {
+	position:absolute;
+	left:0px;
+	top:14px;
+	width:315px;
+	height:52px;
+	z-index:3;
+	color: #F30;
+}
+
+#header2 {
+	position:absolute;
+	right:-40px;
+	top:14px;
+	width:384px;
+	height:14px;
+	z-index:3;
+}
+
+.headerName {
+	color:#48c2c5;
+	font-family: Arial;
+	font-size: 48px;
+}
+
+.headerDescription {
+
+	color: #999999;
+	font-family: "Arial";
+	font-size: 24px;
+}
+#headerPicCell {
+	position:absolute;
+	left:83px;
+	top:14px;
+	width:817px;
+	height:82px;
+	z-index:3;
+	font-family: Arial;
+	color: #000;
+}
+#menuCell {
+	position:absolute;
+	left:26px;
+	top:14px;
+	width:249px;
+	height:35px;
+	z-index:3;
+}
+.menuCell {
+	color: #959595;
+	font-family: "Arial";
+	font-size: 18px;
+}
+.paragraphHeader{
+	color: #48c2c5;
+	font-family: "Arial";
+	font-size: 21px;
+}
+.paragraphBody{
+	color: #48c2c5;
+	font-family: "Arial";
+	font-size: 16px;
+}
+
+#text {
+	position:absolute;
+	left:82px;
+	top:14px;
+	width:806px;
+	height:1475px;
+	z-index:3;
+	border-width:thin;
+	padding:10px;
+	border-color: #48c2c5;
+	border-style: hidden solid hidden solid;
+	background-color: #FFF;
+	color: #000;
+	font-family: Arial;
+}
+a:link {
+	color: #959595;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #959595;
+}
+a:hover {
+	text-decoration: none;
+	color: #45C2C5;
+}
+a:active {
+	text-decoration: none;
+	color: #F36;
+}
+#centerDIV #centerNESTdiv_home #headerPicCell p .headerNamePLPS {
+	color: #F30;
+	font-size: 36px;
+}
+#centerDIV #centerNESTdiv_home #headerPicCell p strong {
+	font-size: 55px;
+	font-family: Arial;
+	color: #F00;
+}
+#centerDIV #centerNESTdiv_home #headerPicCell p {
+	font-size: 36px;
+	font-family: Arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container {
+  display:flex;
+  flex-direction:row;
+}
+
+#left-column {
+  width: 30%;
+  background-color: blue;
+}
+
+#right-column {
+  background-color: red;
+  width: 70 %;
+}
